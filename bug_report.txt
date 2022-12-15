@@ -1,1 +1,16 @@
+ID:1.
 
+Summary: При вводе значения 10000 не срабатывает ограничение на максимальное число 999.
+
+Priority: Medium.
+
+Severity: Minor.
+
+Steps to reproduce: 
+1)В дропдауне Range выбрать all.
+2) В области Symbols отметить чек-бокс Numeric.
+3) Ввести в поле ввода 10000 и нажать на кнопку Add to List.
+
+Actual result: Окна с предупреждением нет.Число 10000 добавилось в список.
+
+Expected result: Открылось окно валидации c текстом:The number you entered was not a valid number. Enter number less 9999.Число 10000 не добавилось в список.
